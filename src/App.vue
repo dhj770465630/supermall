@@ -1,13 +1,16 @@
 <template>
   <div id="app">
+    <insww></insww>
   </div>
 </template>
 
 <script>
 
+import insww from './components/content/in'
 export default {
-  name: 'App',
+  name: 'app',
   components: {
+    insww
   }
 }
 </script>
