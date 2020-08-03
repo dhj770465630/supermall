@@ -1,0 +1,5 @@
+body{margin: 0;padding: 0;}
+#tab-bar{display: flex;position: fixed;bottom:0;width:100%;background-color:#f6f6f6;box-shadow: 0px 2px 5px #999;z-index:99;}
+.tab-baritem{flex: 1;text-align: center;line-height:49px;height:49px;overflow: hidden;}
+.tab-baritem img{display: block;height:25px;margin: auto;margin-top: 2px;}
+.tab-baritem p{display: block;margin: auto;line-height:20px;font-size: 12px;}

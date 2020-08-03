@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <insww></insww>
+    <router-view></router-view>
+    <main-tab-bar></main-tab-bar>
   </div>
 </template>
 
 <script>
-
-import insww from './components/content/in'
+import MainTabBar from './components/content/mainTabbar/MainTabBar';
 export default {
   name: 'app',
   components: {
-    insww
+    MainTabBar
   }
 }
 </script>
 
 <style>
+@import url("./assets/css/base.css");
 </style>
