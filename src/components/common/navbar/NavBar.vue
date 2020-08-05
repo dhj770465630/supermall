@@ -11,7 +11,7 @@ export default {
 }
 </script>
 <style scoped>
- .nav-bar{display: flex;line-height:45px;height:45px;overflow: hidden;}
+ .nav-bar{display: flex;line-height:45px;height:45px;overflow: hidden;position: fixed;top: 0;z-index: 99;width:100%;}
  .left{width:60px;}
  .right{width:60px;}
  .center{flex: 1;text-align: center;}

@@ -1,7 +1,7 @@
 <template>
   <div class="home-tjl">
     <ul>
-      <li v-for="item in recommends">
+      <li v-for="item in recommends" :key="item.acm">
         <a :href="item.link">
           <img :src="item.image" alt="">
           <p>{{item.title}}</p>
